@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    font-weight: bold;
+    background-color: blueviolet;
+}
+
+textarea{
+    text-align: center;
+    justify-self: center;
+    resize: none;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    border: 1px solid black;
+    width: 40em;
+    min-height: auto;
+    margin: 20px auto;
+    background-color: chartreuse;
+}
+
+button{
+    padding: 1em;
+    font-size: 2.5em;
+}
+
+.calulation-field{
+    width: 13em;
+    margin: 0.5em auto;
+    max-height: 3em;
+    grid-column: span 5;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.first-row{
+    grid-column: span 5;
+    margin: 1em 0 1em;
+}
+
+.second-row{
+    grid-column: span 5;
+    margin: 1em 0 1em;
+}
+
+.zero-row{
+    grid-column: span 5;
+    margin: 1em 0 1em;
+}
+
+.third-row{
+    grid-column: span 5;
+    margin: 1em 0 1em;
+}
+
+.zero-field{
+    grid-column: span 5;
+}
+
+#zero-button{
+    padding: 0em auto;
+    width: 68%;
+    margin-bottom: 1em;
+}

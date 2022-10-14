@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="grid">
+        <textarea class="calulation-field" id="calc-field" readonly></textarea>
+        <div class="zero-row">
+            <button onclick="isClicked(this.id)" id="clear"> <span class="chars-in-buttons">C</span></button>
+            <button onclick="isClicked(this.id)" id="divide">/</button>
+            <button onclick="isClicked(this.id)" id="multiply">x</button>
+        </div>
+        <div class="first-row">
+            <button onclick="isClicked(this.id)" id="nine">9</button>
+            <button onclick="isClicked(this.id)" id="eight">8</button>
+            <button onclick="isClicked(this.id)" id="seven">7</button>
+            <button onclick="isClicked(this.id)" id="plus">+</button>
+        </div>
+        <div class="second-row">
+            <button onclick="isClicked(this.id)" id="six">6</button>
+            <button onclick="isClicked(this.id)" id="five">5</button>
+            <button onclick="isClicked(this.id)" id="four">4</button>
+            <button onclick="isClicked(this.id)" id="minus">-</button>
+        </div>
+        <div class="third-row">
+            <button onclick="isClicked(this.id)" id="three">3</button>
+            <button onclick="isClicked(this.id)" id="two">2</button>
+            <button onclick="isClicked(this.id)" id="one">1</button>
+            <button onclick="isClicked(this.id)" id="equal">=</button>
+        </div>
+        <div class="zero-field">
+            <button onclick="isClicked(this.id)" id="zero-button">0</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
