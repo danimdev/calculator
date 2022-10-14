@@ -1,14 +1,14 @@
 let textField = document.getElementById("calc-field");
 
-var val1 = 0;
-var val2 = 0;
-var operator = "";
-var result = 0;
+let val1 = 0;
+let val2 = 0;
+let operator = "";
+let result = 0;
 
-var isChoosingVal1 = true;
-var isChoosingOperator = false;
-var isChoosingVal2 = false;
-var isChoosedOperator = false;
+let isChoosingVal1 = true;
+let isChoosingOperator = false;
+let isChoosingVal2 = false;
+let isChoosedOperator = false;
 
 
 function giveData()
